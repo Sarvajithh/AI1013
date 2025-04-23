@@ -55,6 +55,4 @@ As of **April 23rd, 2025**, the course included **four assignments** covering fo
 - PyTorch
 - Jupyter Notebooks
 
----
 
-## 📂 Repository Structure (Example)
