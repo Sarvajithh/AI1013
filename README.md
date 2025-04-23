@@ -1,22 +1,63 @@
-# AI1013
-This is repository which contains the course work for the course AI1013- Programming for AI, taught by Karthik P.N in 2025 spring
-As of April 23rd 2025, there were 4 aassigments in this course, which covers wide range of topics in AI and ML alike. 
+AI1013 - Programming for AI
+This repository contains coursework for AI1013: Programming for AI, taught by Prof. Karthik P.N. in Spring 2025 at [Your University Name].
 
-*Assignment-1* 
-  We were given a dataset and from which we are asked to analyse reaction rates of a neuron and another question which revolves under the firing rates of neurons.
-  We performed linear regression on the average search delays, and the entropic distances
-  For the later part of question we were asked to fit a gamma distribution for the avg search delays and print kolmogorov-Smirinov Static 
+As of April 23rd, 2025, the course included four assignments covering foundational topics in Artificial Intelligence and Machine Learning, including regression analysis, neural networks, classification, and unsupervised learning.
 
-*Assignment-2*
-  We were asked to train a simple feedforward neural network, which consists of two hidden layers( 2- weights), and sigmoid function as activation function. Gradient descent as
-  an optimizer for the weights. After the training, I plotted the loss from the validation data
-  
-  The other half of the assignment is to do a k-NN classifcation on Abalone dataset. And find the optimal k using MSE loss.
+📘 Course Assignments
+📝 Assignment 1: Neuronal Reaction & Firing Rate Analysis
+Objective: Analyze a dataset to study neuronal reaction and firing rates.
 
-*Assignment-3*
-  ~We were asked to train a 2 hidden layer MLP(multi layer perceptron) for sinc {sinx/x} with normal noise.
-  And the other half is a convoutional neural network to detect rock, paper, scissors using pytorch~
+Key Concepts:
 
-*Assignment-4*
-  We were asked to classify two semicircle points using k means
-  The latter part of the question is about K-means++ and its advantage against random initialization
+Performed linear regression on average search delays and entropic distances.
+
+Modeled average search delays using gamma distribution.
+
+Evaluated goodness-of-fit using the Kolmogorov–Smirnov statistic.
+
+🧠 Assignment 2: Feedforward Neural Network & k-NN Classification
+Part 1: Feedforward Neural Network
+
+Implemented a neural network with two hidden layers using sigmoid activation.
+
+Trained the model using gradient descent.
+
+Visualized validation loss over training epochs.
+
+Part 2: k-Nearest Neighbors (k-NN)
+
+Performed classification on the Abalone dataset.
+
+Evaluated model using Mean Squared Error (MSE).
+
+Determined the optimal value of k.
+
+🔁 Assignment 3: Function Approximation & CNN Classification
+Part 1: MLP for Sinc Function
+
+Trained a Multi-Layer Perceptron (MLP) to approximate the sinc(x) = sin(x)/x function with added noise.
+
+Part 2: CNN for Rock-Paper-Scissors
+
+Built a Convolutional Neural Network using PyTorch.
+
+Classified images into rock, paper, or scissors.
+
+📊 Assignment 4: Clustering with K-Means
+Part 1: Semicircle Classification
+
+Applied k-means clustering to classify two semicircular datasets.
+
+Part 2: K-Means++ Initialization
+
+Explored the benefits of K-Means++ over random initialization.
+
+Discussed improvements in convergence speed and accuracy.
+
+🛠️ Technologies Used
+Python (NumPy, SciPy, Scikit-learn, Matplotlib)
+
+PyTorch
+
+Jupyter Notebooks
+
